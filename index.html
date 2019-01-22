@@ -207,8 +207,12 @@
           </p>
           <div class="split style1">
             <section>
-              <form method="post" action="#">
+              <form method="post" name="portfolio-contact" action="#" netlify-honeypot="bot-field" data-netlify="true">
                 <div class="fields">
+                    <div class="field half hidden">
+                        <label>Don't fill this out if you're human</label>
+                        <input name="bot-field"/>
+                      </div>
                   <div class="field half">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" />

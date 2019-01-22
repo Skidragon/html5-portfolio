@@ -1790,6 +1790,9 @@ button:hover:active:after,
 form {
   margin: 0 0 2em 0;
 }
+form .hidden {
+  display: none;
+}
 form > :last-child {
   margin-bottom: 0;
 }
